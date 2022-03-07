@@ -6,6 +6,7 @@ function AcademicsBtn(){
   return (
     <div>
         <button
+        onClick={(event) => (window.location.href = "/Academics")}
         className='academics'>
             <a className='title'>Academics</a>
             <br/>
